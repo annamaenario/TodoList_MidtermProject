@@ -1,0 +1,49 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+.list .input {
+  height: 27px;
+  width: 220px;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: solid  rgb(29, 175, 6) 1.8px;
+}
+.list .add-btn {
+  height: 30px;
+  width: 60px;
+  margin-left: 10px;
+  border: none;
+  background: rgb(29, 175, 6);
+  color: #ffffff;
+  border-radius: 5px;
+}
+table {
+  padding-top: 5px;
+}
+.table-row {
+  background: floralwhite;
+}
+.table-row td {
+  padding: 5px 0px 5px 0px;
+}
+.table-row .info {
+  width: 230px;
+}
+.table-row .del-btn-container {
+  padding-left: 10px;
+}
+.table-row .del-btn {
+  border: none;
+  background: rgb(217, 11, 11);
+  color: #ffffff;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+}
